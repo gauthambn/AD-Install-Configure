@@ -1,0 +1,6 @@
+# vars file for roles/win_ad_user
+user_info:
+  - { name: 'gautham', firstname: 'Gautham', surname: 'Nagaraj', password: 'redhat@123', group_name: 'consultant', group_scope: 'domainlocal'}
+  - { name: 'bushnaq', firstname: 'Mohd', surname: 'Bushnaq', password: 'redhat@123', group_name: 'consultant', group_scope: 'domainlocal'}
+  - { name: 'ruth', firstname: 'Ruth', surname: 'Obrien', password: 'redhat@123', group_name: 'staff', group_scope: 'domainlocal'}
+  - { name: 'khaled', firstname: 'Khaled', surname: 'Alameri', password: 'redhat@123', group_name: 'staff', group_scope: 'domainlocal'}
